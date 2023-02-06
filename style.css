@@ -8,9 +8,9 @@ body {
 }
 
 .flex {
-    margin-left: 10vw;
-    margin-top: 5vh;
-    width: 80vw;
+    margin-left: 10vmin;
+    margin-top: 5vmin;
+    width: 80vmin;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -18,39 +18,39 @@ body {
     align-items: center;
     background-color: rgba(255,255,255,0.2);
     border: 0px white solid;
-    border-radius: 5vw;
+    border-radius: 5vmin;
 }
 
 button {
-    width: 17vw;
-    height: 17vw;
+    width: 17vmin;
+    height: 17vmin;
     border: 0px white solid;
-    border-radius: 17vw;
-    margin-bottom: 3vw;
+    border-radius: 17vmin;
+    margin-bottom: 3vmin;
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 5vmin;
 }
 
 .double {
-    width: 35vw;
+    width: 35vmin;
 }
 
 .triple {
-    width: 53vw;
+    width: 53vmin;
 }
 
 .screen {
-    margin-top: 5vw;
-    margin-bottom: 3vw;
-    padding-right: 2vw;
-    height: 20vw;
-    width: 68vw;
+    margin-top: 5vmin;
+    margin-bottom: 3vmin;
+    padding-right: 2vmin;
+    height: 20vmin;
+    width: 68vmin;
     background-color: rgba(255,255,255,0.5);
     border: 0px rgba(255,255,255,0.5) solid;
-    border-radius: 5vw;
+    border-radius: 5vmin;
     text-align: right;
-    font-size: 15vw;
-    line-height: 20vw;
+    font-size: 15vmin;
+    line-height: 20vmin;
 }
 
 .num {
