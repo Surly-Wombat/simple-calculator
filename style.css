@@ -1,0 +1,73 @@
+*,*::before,*::after {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(0,0,200,0.4), rgba(0,0,255,1));
+}
+
+.flex {
+    margin-left: 10vw;
+    margin-top: 5vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255,255,255,0.2);
+    border: 0px white solid;
+    border-radius: 5vw;
+}
+
+button {
+    width: 17vw;
+    height: 17vw;
+    border: 0px white solid;
+    border-radius: 17vw;
+    margin-bottom: 3vw;
+    font-weight: bold;
+    font-size: 5vw;
+}
+
+.double {
+    width: 35vw;
+}
+
+.triple {
+    width: 53vw;
+}
+
+.screen {
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+    padding-right: 2vw;
+    height: 20vw;
+    width: 68vw;
+    background-color: rgba(255,255,255,0.5);
+    border: 0px rgba(255,255,255,0.5) solid;
+    border-radius: 5vw;
+    text-align: right;
+    font-size: 15vw;
+    line-height: 20vw;
+}
+
+.num {
+    background-color: white;
+    color: black;
+}
+
+.operation {
+    background-color: magenta;
+    color: white;
+}
+
+.equals {
+    background-color: orange;
+}
+
+.special {
+    background-color: LimeGreen;
+    color: black;
+}
