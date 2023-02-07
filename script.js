@@ -21,6 +21,9 @@ function special(char) {
     else if(char == "←") {
         if(numString.length > 1) {
             numString = numString.substring(0,numString.length-1);
+            if(numString.charAt(numString.length-1) == ".") {
+                numString = numString.substring(0,numString.length-1);
+            }
             if(numString == "-") {
                 numString = "0";
             }
