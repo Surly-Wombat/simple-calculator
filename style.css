@@ -51,6 +51,7 @@ button {
     text-align: right;
     font-size: 15vmin;
     line-height: 20vmin;
+    overflow-x: hidden;
 }
 
 .num {
